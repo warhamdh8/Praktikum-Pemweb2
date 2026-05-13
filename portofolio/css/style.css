@@ -1,0 +1,54 @@
+/* SIDEBAR WRAPPER */
+.sidebar-wrapper {
+  position: sticky;
+  top: 100px;
+}
+
+/* MENU STYLE */
+.sidebar-menu {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* ITEM DEFAULT */
+.sidebar-menu .list-group-item {
+  border: 1px solid #568abf; /* BALIKIN GARIS */
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* HOVER EFFECT */
+.sidebar-menu .list-group-item:hover {
+  background-color: #98b8e7;
+  color: white;
+  transform: translateX(8px);
+  border-color: #688dc3; /* biar nyatu */
+}
+
+.sidebar-menu .list-group-item:not(:last-child) {
+  border-bottom: none;
+}
+
+/* ACTIVE (yang diklik) */
+.sidebar-menu .active {
+  background-color: #8ab8fe;
+  color: white;
+  border-color: #577eb9;
+  font-weight: 500;
+}
+
+/* PROJECT*/
+.project-img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
